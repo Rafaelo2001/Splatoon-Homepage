@@ -1,0 +1,40 @@
+@font-face {
+    font-family: "Inkling";
+    src: url("./images/Inkling_v2.otf");
+}
+
+body {
+    font-family: "Inkling";
+    background-color: orange;
+}
+
+
+/* Barra Nav */
+#navTitle {
+    color: orange;
+}
+
+
+#navBar {
+    background-color: orange;
+}
+
+#imgNav {
+    max-width: 200px;
+}
+
+
+/* Card */
+.card-img {
+    max-height: 380px;
+}
+
+/* Altura de las columnas de Equipment */
+.tmn {
+    height: 120px;
+}
+
+.smallfry {
+    height: 120px;
+}
+

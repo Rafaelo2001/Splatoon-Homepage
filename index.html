@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+        <title>Moda Spatoonesca 🦑</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link href="styles.css" rel="stylesheet">
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+        <script>
+            alert("¡Welcome to Moda Splatooneska!");
+        </script>
+    </head>
+
+    <body class="bg-gradient">
+
+        <header>
+            <nav class="navbar bg-body-tertiary rounded m-3 p-1">
+
+                    <a id="navTitle" href="index.html" class="container-fluid link-underline link-underline-opacity-0">
+                        <img alt="Page Logo" id="imgNav" class="col-2 mx-auto" src="images/nav-icon.svg">
+                        <h1 class="col-sm-9 display-2 text-center my-auto mx-auto"><big>Moda Splatooneska</big></h1>
+                    </a>
+
+
+                <div id="navBar" class="container-fluid border rounded m-3 nav nav-pills nav-fill">
+                    <a href="index.html" class="active nav-link fs-2 d-sm-block d-md-none" class="navHome">🦑</a>
+                    <a href="index.html" class="active nav-link fs-2 d-none d-md-block" class="navHome">Home</a>
+                    <a title="Comming (not) soon" class="nav-link fs-2 text-white">Scenarios</a>
+
+                    <a href="weapon.html" class="nav-link fs-2 text-white">Weapons</a>
+
+                    <a href="bosses.html" class="nav-link fs-2 text-white">Bosses</a>
+                    <a href="equipment.html" class="nav-link fs-2 text-white">Accesories</a>
+                </div>
+            </nav>
+        </header>
+
+        <main class="bg-body-tertiary rounded m-5 p-5">
+
+            <div id="carruselHome" class="carousel slide m-3 rounded mx-auto" data-bs-ride="carousel" style="width: 80%">
+
+                <h1 class="text-end h1">Principales Escenarios</h1>
+
+                <!--Indicadores-->
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carruselHome" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carruselHome" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carruselHome" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  </div>
+
+                <!--Imagenes del Carrusel-->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" alt="Blackbelly Skatepark" src="https://cdn.wikimg.net/en/splatoonwiki/images/thumb/1/11/S2_Stage_Blackbelly_Skatepark.png/800px-S2_Stage_Blackbelly_Skatepark.png">
+                        <h3 class="carousel-caption d-none d-sm-block">Blackbelly Skatepark</h3>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" alt="Walleye Warehouse" src="https://cdn.wikimg.net/en/splatoonwiki/images/6/6a/S2_Stage_Walleye_Warehouse.png">
+                        <h3 class="carousel-caption">Walleye Warehouse</h3>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" alt="Arowana Mall" src="https://cdn.wikimg.net/en/splatoonwiki/images/thumb/f/f5/S2_Stage_Arowana_Mall.png/800px-S2_Stage_Arowana_Mall.png">
+                        <h3 class="carousel-caption">Arowana Mall</h3>
+                    </div>
+                </div>
+
+                <!--Botones Adelante/Atras-->
+                <button class="carousel-control-prev" type="button" data-bs-target="#carruselHome" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+
+                <button class="carousel-control-next" type="button" data-bs-target="#carruselHome" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+            <hr/>
+
+            <!--Area de cards-->
+            <section>
+                <h3 class="text-center h1 mb-3">Our Articles</h3>
+
+                <div class="row row-cols-1 row-cols-md-2 g-4 px-5">
+
+                    <div class="col">
+                        <a href="weapon.html#armasheroe" class="card text-bg-dark">
+                            <img class="card-img" alt="Weapons" src="https://cdn.wikimg.net/en/splatoonwiki/images/7/7b/S2_Hero_Weapons_Twitter_SplatoonJP_Image.jpg">
+                            <h3 class="h2 card-img-overlay card-title">Armas del Heroe</h3>
+                        </a>
+                    </div>
+
+                    <div class="col">
+                        <a href="equipment.html" class="card">
+                            <img class="card-img" alt="equipment" src="images/equipment.png">
+                            <h3 class="h2 card-img-overlay card-title">Equipment</h3>
+                        </a>
+                    </div>
+
+                    <div class="col">
+                        <a href="bosses.html" class="card text-bg-dark">
+                            <img class="card-img" alt="bosses" src="https://cdn.wikimg.net/en/splatoonwiki/images/4/48/Octostomp_concept_art.png">
+                            <h3 class="h2 card-img-overlay card-title">Bosses</h3>
+                        </a>
+                    </div>
+
+                    <div class="col">
+                        <a href="weapon.html#subweapon" class="card">
+                            <img class="card-img" alt="sub weapons" src="images/sub-weapon.png">
+                            <h3 class="h2 card-img-overlay card-title">Sub-Weapons</h3>
+                        </a>
+                    </div>
+                </div>
+
+            </section>
+
+        </main>
+
+        <footer class="text-bg-dark ps-4 py-3">
+            <p class="my-0"><big>@Rafaelo — oct - 2023</big></p>
+        </footer>
+    </body>
+</html>
